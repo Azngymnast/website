@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta http-equiv="refresh" content="1">
+<body style="background-color:powderblue;">
+<center>
+<center style="font-size:75px">
+Date: <span id="date">
+	</span>
+	</center>
+<script>
+	var dt = new Date();
+	document.getElementById("date").innerHTML = dt.toLocaleDateString();
+</script>
+
+<center style="font-size:75px">
+Time: <span id="time">
+	</span>
+	</center>
+
+<script>
+	var dt = new Date();
+	document.getElementById("time").innerHTML = dt.toLocaleTimeString();
+</script>
+
+<embed src="jnt.gif" width="450" height="450">
+</body>
